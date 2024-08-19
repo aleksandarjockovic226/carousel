@@ -1,0 +1,12 @@
+[carouselholder] {
+    [carousellist] {
+        display: flex;
+        overflow: hidden;
+        transition: scroll 0.3s ease;
+    }
+
+    [carouselelement] {
+        flex-shrink: 0;
+        flex-basis: 100%;
+    }
+}
